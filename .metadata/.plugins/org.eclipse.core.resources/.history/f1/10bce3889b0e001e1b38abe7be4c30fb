@@ -1,0 +1,8 @@
+package com.example1;
+
+@FunctionalInterface
+public interface Infra 
+{
+	public int getLength(String s);
+	public int getLength1(String s1);
+}

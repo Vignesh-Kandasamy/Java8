@@ -1,0 +1,23 @@
+package com.example1;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Stream;
+
+public class Practice 
+{
+	public static void main(String args[])
+	{
+		List<Integer> list = Arrays.asList(4,8,2,1,5,3,8);
+		Stream<Integer> stream=list.stream().sorted();
+		Set<Integer> set =new HashSet<Integer>();
+		
+		for(int num : list)
+		{
+			set.add(num);
+		}
+		System.out.println(set);
+	}
+}

@@ -1,0 +1,10 @@
+package com.example1;
+
+public class Test
+{
+	public static void main(String args[])
+	{
+		Infra i=()->System.out.println("Hello");
+		i.m1();
+	}
+}

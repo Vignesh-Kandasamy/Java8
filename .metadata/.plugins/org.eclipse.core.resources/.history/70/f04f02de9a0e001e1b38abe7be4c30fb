@@ -1,0 +1,6 @@
+package com.example1;
+
+public class Test
+{
+	Infra i=()->System.out.println("Hello");
+}
